@@ -149,11 +149,11 @@ Note that if <i>RelativeTo</i> is set to RTL_REGISTRY_HANDLE, the following occu
 
 <ul>
 <li>
-On Windows 98/Me and Windows NT 4.0, the routine closes the specified handle before returning.
+On Windows 98/Me, Windows NT 4.0 and 2000, the routine closes the specified handle before returning.
 
 </li>
 <li>
-On Windows 2000 and later versions of Windows, the routine leaves the handle open.
+On Windows XP and later versions of Windows, the routine leaves the handle open.
 
 </li>
 </ul>
